@@ -18,5 +18,17 @@ export const menuItems: MenuItem[] = [
     name: 'Switches',
     icon: 'toggle-outline',
     component: 'SwitchScreen'
+  },
+  {
+    id: 'randomkey4',
+    name: 'Alerts',
+    icon: 'alert-circle-outline',
+    component: 'AlertScreen'
+  },
+  {
+    id: 'randomkey5',
+    name: 'Inputs',
+    icon: 'document-text-outline',
+    component: 'TextInputScreen'
   }
 ]
